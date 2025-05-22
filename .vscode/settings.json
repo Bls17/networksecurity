@@ -1,0 +1,9 @@
+{
+  "console-ninja.filter.regexes": [
+    "^#.*", // Ignore les lignes qui commencent par #
+    ".*UserWarning.*", // Ignore les UserWarnings
+    ".*DeprecationWarning.*", // Ignore les DeprecationWarnings
+    ".*INFO.*", // Ignore les logs contenant INFO
+    ".*DEBUG.*" // Ignore les logs contenant DEBUG
+  ]
+}
