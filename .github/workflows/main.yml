@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Lint Code
-        uses: echo "Linting Code"
+        run: echo "Linting Code"
 
       - name: Test Code
-        uses: echo "Testing Code"
+        run: echo "Testing Code"
