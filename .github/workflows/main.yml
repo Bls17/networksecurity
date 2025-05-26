@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**.md"
+jobs:
+  integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Lint Code
+        uses: echo "Linting Code"
+
+      - name: Test Code
+        uses: echo "Testing Code"
